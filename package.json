@@ -16,7 +16,10 @@
     "copy": "mkdir dist && rsync -avr --exclude=\"/scss\" src/ dist",
     "publish": "gh-pages -d dist"
   },
-  "keywords": ["sass","tooling"],
+  "keywords": [
+    "sass",
+    "tooling"
+  ],
   "license": "ISC",
   "devDependencies": {
     "gh-pages": "^3.2.3",
